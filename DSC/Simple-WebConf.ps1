@@ -9,7 +9,7 @@
       # This example ensures the Web Server (IIS) role is installed
       WindowsFeature webserver
       {
-          Ensure = "Absent" # To uninstall the role, set Ensure to "Absent"
+          Ensure = "Present" # To uninstall the role, set Ensure to "Absent"
           Name = "Web-Server"  
       }
 
