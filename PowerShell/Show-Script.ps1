@@ -1,3 +1,6 @@
 ﻿# Added funct
+
+
+Get-WindowsFeature -Name "Web-Server"
 ﻿
-﻿Get-WindowsFeature 
+Add-WindowsFeature -Name "Web-Server"
